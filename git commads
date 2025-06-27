@@ -1,0 +1,24 @@
+git init                         :– initialization of git in that folder
+git add .                        :– Add all files to git
+git diff --cached --name-only    :- to watch which are in staging area
+git status                       :– get which branch you are in and the status of files
+git config –global user.name “”  :–  you have to identify yourself to    make a commit in a file 
+git config –global user.email “” :–  you have to identify yourself to    make a commit in a file 
+git commit -m “”                 :– to add a commit
+git log                          :– to watch all the entries of commits
+git remote -v                    :– to get all the remote repositories connected
+git push -u origin main          :– push file to main git repository
+git branch -M name               :– changes the name of the branch  -M flag is for "move" or "rename" and forces the rename even if the branch is active
+git remote set-url origin <repository_link> :-
+git pull --rebase origin main    :– to change the repository branch and update
+git switch branch_name           :– switch the branch in linux
+git push origin --delete (branch name):- to delete a branch in repository
+git remote remove origin         :– remove the origin link
+git remote add origin            :– add a link for git hub
+git branch -d <branch_name>      :– to remove a branch 
+git bisect                       :-
+git config --global credential.helper store :– to store credentials in git
+git stash                        :-
+git ls-tree                      :-
+git reset (--hard,--soft,--mixed) :-
+git rev-list --max-parents=<number> HEAD  :-
