@@ -2,21 +2,16 @@ Topics of git:
 why do we need git with sceinario
 what is git
 how git overcame old legacy systems
-
 difference between git and github
 different areas in git
 file creation and moving them to different stages
-
-git commands and ".git" file creation and what it stores , authentication
+git commands and ".git" file creation and what it stores 
+authentication
 how to undo every action
-
-
-real case example branching , merging , conflicts , PR , colaborators 
-branch rules and rule sets , webhooks
-
-
-
-introduction 
+real case example {branching , merging , conflicts , PR , colaborators}
+git tags
+branch rules and rule sets 
+webhooks
 stages
 operations 
 real case
