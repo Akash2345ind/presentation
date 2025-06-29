@@ -20,7 +20,7 @@ git branch -d <branch_name>      :– to remove a branch
 git bisect                       :-
 git config --global credential.helper store :– to store credentials in git
 git stash                        :-
-git ls-tree                      :- 
+git ls-files --others --exclude-standardz   :- 
 git reset (--hard,--soft,--mixed) :-
 git rev-list --max-parents=<number> HEAD  :-
 git clone <repository-URL> :-
