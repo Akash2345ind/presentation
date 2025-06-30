@@ -24,6 +24,8 @@ git ls-files --others --exclude-standardz   :-
 git reset (--hard,--soft,--mixed) :-
 git rev-list --max-parents=<number> HEAD  :-
 git clone <repository-URL> :-
-git checkoout :-
+git checkout :-
 git merge :- merges branches to the main repo/master repo
 git fetch :– Downloads commits, files, and refs from a remote repository into your local repository without merging them. This is useful for seeing what's new in the remote before you decide to merge.
+git ls-tree
+git log --graph --oneline --all
