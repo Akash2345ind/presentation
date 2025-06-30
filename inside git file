@@ -1,0 +1,10 @@
+File/Folder			Description
+HEAD			Points to the current branch (e.g., refs/heads/main)
+config			Repository-specific configuration (e.g., remotes, settings)
+description		Used by GitWeb; not important for standard Git usage
+index			Binary file that tracks the staging area (files added with git add)
+hooks/			Client-side scripts that run at specific events (e.g., pre-commit)
+info/			Contains exclude file for local ignore rules (like .gitignore)
+logs/			History of changes to branches (logs/HEAD, logs/refs/heads/*)
+objects/		All actual data stored here (commits, trees, blobs, tags) using their SHA IDs
+refs/			Pointers to commit hashes for branches and tags branches/ (rarely used) Legacy alternative to refs/heads/
