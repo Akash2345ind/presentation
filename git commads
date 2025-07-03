@@ -29,3 +29,7 @@ git merge :- merges branches to the main repo/master repo
 git fetch :– Downloads commits, files, and refs from a remote repository into your local repository without merging them. This is useful for seeing what's new in the remote before you decide to merge.
 git ls-tree -r HEAD --name-only :- to watch what files are in commit area
 git log --graph --oneline --all
+git stash list
+git stash push -m "message"
+git stash show stash@{0}
+git stash apply stash@{2}
