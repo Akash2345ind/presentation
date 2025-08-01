@@ -36,3 +36,4 @@ git stash apply stash@{2}
 git hash-object commit-id
 git gc
 git crypt
+git clone --branch <branch_name> --single-branch <repository_url>
