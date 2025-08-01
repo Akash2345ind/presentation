@@ -33,3 +33,6 @@ git stash list
 git stash push -m "message"
 git stash show stash@{0}
 git stash apply stash@{2}
+git hash-object commit-id
+git gc
+git crypt
