@@ -39,3 +39,4 @@ git crypt
 git clone --branch <branch_name> --single-branch <repository_url>
 git clone --bare
 git cinfig --global init.default Branch main
+git prune
